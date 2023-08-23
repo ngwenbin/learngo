@@ -23,4 +23,8 @@ func main() {
 
 	bye()
 	hey()
+
+	// In order to run files under the same main package,
+	// Either run go run *.go or go build to compile all files.
+	// go run main.go only targets single files.
 }
